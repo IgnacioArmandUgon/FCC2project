@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <title>Survey page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body id="main">
+    <div >
+        <h1 id="title">Unleash your creativity</h1>
+    </div>
+    <div >
+        
+    </div>
+    <form id="survey-form">
+        <p id="description">Fill out the form for the guitar lessons!</p>
+        <ul>
+        <div id="text">
+            
+        <li><label id="name-label" for="name">Enter your name</label>
+        <input id="name" type="text" placeholder="Here..." required></br>
+    </li>
+        <li><label id="name-label" for="lastname">Enter your lastname</label>   
+        <input id="lastname" type="text" placeholder="Here..." required></br>
+    </li><li>
+        <label id="email-label" for="email">Enter your email</label>
+        <input id="email" type="email" placeholder="Here..." required></br>
+    </li><li>
+        <label id="number-label" for="number"> Enter your age </label>
+        <input id="number" type="number" max="9" min="6" placeholder="Here..." required></br>
+    </li>
+    </ul>
+        </div>
+        <div id="SingleOption">
+            <label>What instrument would you like yo learn?</label></br>
+        <label for="o1"><input type="radio" value="1" id="o1" name="Single-Option">Classical guitar</label></br>
+        <label for="o2"><input type="radio" value="2" id="o2" name="Single-Option">Electric guitar</label></br>
+        <label for="o3"><input type="radio" value="3" id="o3" name="Single-Option">Acustic guitar</label></br>
+        <label for="o4"><input type="radio" value="4" id="o3" name="Single-Option">Ukulele</label></br>
+    </div>
+    <div id="checkbox">
+        <label>How did you discover this course?</label></br>
+        <label for="o1"><input type="checkbox" value="1" id="o1" name="Multiple-Option">A friend</label></br>
+        <label for="o2"><input type="checkbox" value="2" id="o2" name="Multiple-Option">Internet</label></br>
+        <label for="o3"><input type="checkbox" value="3" id="o3" name="Multiple-Option">Other...</label></br>
+    </div>
+    <div id="dropdown">
+        <label for="drop-down">What's your level?</label>
+        <select id="drop-down" name="drop-down">
+        
+        <option value="None">I've never played</option>
+        <option value="Noob">I'm a beginer</option>    
+        <option value="Middle">I'm an amateur</option>
+        <option value="Pro">I'm a pro</option>
+    </select>
+    </div> 
+    <div>                           
+        <label for="textarea">What kind of music would you like to play?</label></br>
+        <textarea id="textarea" name="textarea" placeholder="Write here!"></textarea>
+        </div>
+        <input id="submit" type="submit"></input>
+
+    </form>
+
+</body>
+</html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
