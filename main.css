@@ -27,21 +27,22 @@
     padding-left: 2em;
     border-radius: 15px;
     background-color: rgba(255, 235, 58, 0.5);
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 li {
     padding: 1em 0;
 }
 #checkbox {
     padding: 1em 0;
-    padding-left: 1em;
+    padding-left: 0.95em;
 }
 
 #SingleOption {
-    padding-left: 1em;
+    padding-left: 0.85em;
 }
 #dropdown {
     padding-bottom: 1em;
+    padding-left: 1em;  
 }
 #textarea {
     width: 20em;
@@ -54,6 +55,7 @@ li {
     background-image: url(Wood.jpg);
     margin-top: 1em;
     margin-left: 8px;
+    
 }
 #name {
     background-color:rgba(255, 235, 58, 0.637) ;
@@ -66,4 +68,18 @@ li {
 }
 #number {
     background-color:rgba(255, 235, 58, 0.637) ;
+}
+#text input {
+    border-color:rgb(172, 164, 105);
+    border-width: 1px;
+}
+#drop-down {
+    border-color:rgb(255, 255, 255);
+    border-width: 1px;
+}
+#textdiv {
+    padding-left: 1em;
+}
+#submitdiv {
+    padding-left: 1em;
 }
